@@ -62,8 +62,6 @@ a:after {
 
 
 
-landin
-
 
 
 
@@ -314,7 +312,7 @@ landin
 
 
 
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 
 .triangle {
   position: relative;
@@ -326,16 +324,19 @@ landin
   border-right: 175px dotted rgba(232, 232, 232, 255);
   border-bottom: 0 dotted rgba(255,255,255,0);
   line-height: 0;
-  position: relative;
+
+
+    position: relative;
 		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
     background-position: 0px 0px, center;
-
+}
 
 
 
 }
+
 
 
 
@@ -829,3 +830,40 @@ hr {
 			height: 100%;
 			background: rgba(64,64,64,0.2);
 		}
+
+
+
+@-moz-document url-prefix() {
+
+
+.triangle {
+
+
+  /*
+  position: relative;
+z-index: 999;
+margin: 0px auto -30px;
+width: 0px;
+height: 0px;
+border-width: 30px 175px 0px;
+border-style: solid dotted dotted;
+border-color: #222 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+line-height: 0;
+
+position: relative;
+		background: url(../img/circuit.jpg) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+    background-position: 0px 0px, center;
+
+border-top: 30px solid rgba(64,64,64,0.5);
+  border-left: 175px dotted rgba(232, 232, 232, 255);
+  border-right: 175px dotted #949494;
+  border-bottom: 0 dotted #949494;
+  border-style: inset;
+ /*
+
+  display:none;
+}
+
+}
