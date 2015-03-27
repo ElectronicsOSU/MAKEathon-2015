@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     color: #c0392b;
-    text-decoration: none;
+    text-decoralist-style-type: none;tion: none;
     outline: 0;
 }
 
@@ -80,10 +80,18 @@ a:after {
 
 
 
+#sponsors img {
+ padding-top: 140px;
+  width: 400px;
+  height: auto;
+  text-decoration: none;
+}
 
 
-
-
+#sponsors li {
+  padding-bottom: 30px;
+  list-style-type: none;
+}
 
 
 
