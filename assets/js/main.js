@@ -37,22 +37,13 @@ $(document).ready(function() {
   $('#summary .heading').removeClass('hidden');
   $('#summary .heading').addClass('animated zoomIn');
 
+
   $('#featured').removeClass('hidden');
   $('#featured').addClass('animated fadeIn');
 
+  $('#faq-nav a').smoothScroll();
 
-
-  $.getJSON(apiCall, function(data){
-        $.each(data.items, function(i,item){
-          $("<img data-u='image'/>").attr("src", item.media.m).appendTo(".flickr-stream")
-          .wrap("<div>" + "</div>");
-  });
-});
-
-
-
-
-
+  $('#agenda-nav a').smoothScroll();
 
 
 
