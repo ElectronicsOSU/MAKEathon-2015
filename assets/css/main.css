@@ -778,6 +778,7 @@ padding-bottom: 2em;
 hr {
   border-top: 1px solid #bbb;
   width: 80%;
+  display: none;
 }
 
 
