@@ -64,35 +64,47 @@ a:after {
 
 
 
+#sponsors {
+}
 
 
 
-
-
+#sponsors ul {
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  padding: 0;
+}
 
 
 
 #sponsors img {
- padding-top: 140px;
-  width: 30vw;
+
+  width: auto;
+  max-width: 250px;
   height: auto;
   text-decoration: none;
 }
 
 
 #sponsors li {
-  padding-bottom: 30px;
+  padding-top: 50px;
   list-style-type: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+#sponsors li:first-child {
+  padding-bottom: 50px;
 }
 
 
 
 
 
-
-
-
-
+col-sm-8 col-md-4 col-lg-8
 
 /* ---------- */
 @media (min-width: 767px) {
@@ -773,7 +785,6 @@ hr {
 
 #agenda {
     padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 #agenda h1 {
