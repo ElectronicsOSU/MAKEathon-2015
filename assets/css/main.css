@@ -46,7 +46,7 @@ a {
 a:hover,
 a:focus {
     color: #c0392b;
-    text-decoration: none;
+    text-decoralist-style-type: none;tion: none;
     outline: 0;
 }
 
@@ -62,31 +62,49 @@ a:after {
 
 
 
-landin
+
+
+#sponsors {
+}
+
+
+
+#sponsors ul {
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  padding: 0;
+}
+
+
+
+#sponsors img {
+
+  width: auto;
+  max-width: 250px;
+  height: auto;
+  text-decoration: none;
+}
+
+
+#sponsors li {
+  padding-top: 50px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+#sponsors li:first-child {
+  padding-bottom: 50px;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+col-sm-8 col-md-4 col-lg-8
 
 /* ---------- */
 @media (min-width: 767px) {
@@ -314,7 +332,7 @@ landin
 
 
 
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 
 .triangle {
   position: relative;
@@ -326,16 +344,19 @@ landin
   border-right: 175px dotted rgba(232, 232, 232, 255);
   border-bottom: 0 dotted rgba(255,255,255,0);
   line-height: 0;
-  position: relative;
+
+
+    position: relative;
 		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
     background-position: 0px 0px, center;
-
+}
 
 
 
 }
+
 
 
 
@@ -764,7 +785,6 @@ hr {
 
 #agenda {
     padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 #agenda h1 {
@@ -829,3 +849,40 @@ hr {
 			height: 100%;
 			background: rgba(64,64,64,0.2);
 		}
+
+
+
+@-moz-document url-prefix() {
+
+
+.triangle {
+
+
+  /*
+  position: relative;
+z-index: 999;
+margin: 0px auto -30px;
+width: 0px;
+height: 0px;
+border-width: 30px 175px 0px;
+border-style: solid dotted dotted;
+border-color: #222 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+line-height: 0;
+
+position: relative;
+		background: url(../img/circuit.jpg) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+    background-position: 0px 0px, center;
+
+border-top: 30px solid rgba(64,64,64,0.5);
+  border-left: 175px dotted rgba(232, 232, 232, 255);
+  border-right: 175px dotted #949494;
+  border-bottom: 0 dotted #949494;
+  border-style: inset;
+ /*
+
+  display:none;
+}
+
+}
