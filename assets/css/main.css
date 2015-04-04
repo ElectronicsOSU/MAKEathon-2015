@@ -832,6 +832,39 @@ hr {
 
 
 
+#schedule {
+  color: #333;
+}
+
+#schedule tr {
+  background-color: rgb(239, 239, 239);
+}
+
+
+
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+padding: .5em 2em;
+}
+
+
+
+
+#schedule .table-condensed>tbody>tr>td:last-child {
+  text-align: left;
+}
+
+
+.table-condensed>thead>tr>th {
+  color: #949494;
+}
+
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+
+
+border-bottom-width: inherit;
+  text-align: center;
+}
 
 
 #footer {
@@ -895,3 +928,6 @@ border-top: 30px solid rgba(64,64,64,0.5);
 }
 
 }
+
+
+
