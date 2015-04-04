@@ -135,7 +135,7 @@ a:after {
 
 
 
-col-sm-8 col-md-4 col-lg-8
+
 
 /* ---------- */
 @media (min-width: 767px) {
@@ -218,6 +218,11 @@ col-sm-8 col-md-4 col-lg-8
  .navbar-collapse.collapse {
    display: none;
  }
+
+
+ #faqs .col-sm-12:first-child, #faqs .col-md-12:first-child, #faqs .col-lg-12:first-child {
+    text-align: center;
+  }
 
 
 }
@@ -307,6 +312,11 @@ col-sm-8 col-md-4 col-lg-8
 
   #faqs .col-sm-12>p, #faqs .col-md-12>p, #faqs .col-lg-12>p {
     text-align: justify!important;
+    padding-bottom: 2em!important;
+  }
+
+  #faqs .col-sm-12>span, #faqs .col-md-12>span, #faqs .col-lg-12>span {
+    padding: 0 1em;
   }
 
 }
@@ -825,6 +835,7 @@ padding-bottom: 2em;
   padding-bottom: 2em;
   padding: 0 1em;
 }
+
 
 
 #faqs span {
