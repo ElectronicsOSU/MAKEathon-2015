@@ -1,10 +1,4 @@
-html,body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-}
+
 
 body {
   background-color: #f2f2f2;
@@ -787,6 +781,10 @@ padding-bottom: 2em;
 #faqs {
     padding-top: 50px;
     padding-bottom: 30px;
+}
+
+#faqs>p {
+  text-align: center!important;
 }
 
 #faqs h1 {

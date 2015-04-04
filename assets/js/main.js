@@ -5,7 +5,7 @@
 $(document).ready(function() {
 
 
-  $(window).scroll(function() {
+   $(window).scroll(function() {
 
     if ($(this).scrollTop() > 200) {
             $('.go-top').fadeIn(200);
@@ -20,8 +20,6 @@ $(document).ready(function() {
 
         $('html, body').animate({scrollTop: 0}, 300);
     });
-
-
 
 
   $('#brand, #brand').removeClass('hidden');
