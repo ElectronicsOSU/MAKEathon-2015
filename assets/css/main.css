@@ -784,9 +784,7 @@ padding-bottom: 2em;
     padding-bottom: 30px;
 }
 
-#faqs>p {
-  text-align: center!important;
-}
+
 
 #faqs h1 {
   text-transform: uppercase;
@@ -796,6 +794,11 @@ padding-bottom: 2em;
 
 #faqs p {
   text-align: justify;
+}
+
+#faqs .col-sm-12>p, #faqs .col-md-12>p, #faqs .col-lg-12>p {
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 
