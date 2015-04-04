@@ -337,6 +337,7 @@ col-sm-8 col-md-4 col-lg-8
 .go-top:hover {
 	background-color: rgba(92, 92, 92, .7);
   color: rgba(239, 239, 239, .8);
+  text-decoration: none;
 }
 /* ---------- */
 
