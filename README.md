@@ -1,3 +1,3 @@
 # OHI/O MAKEATHON WEBSITE
 
-Website for 2015 OHI/O MAKEathon
+Website for 2015 OHI/O Makeathon
