@@ -1,5 +1,3 @@
-var apiCall = "https://api.flickr.com/services/feeds/photos_public.gne?id=132038343@N02&tags=featured&lang=en-us&format=json&jsoncallback=?";
-
 
 
 // Back to Top
