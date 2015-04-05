@@ -403,6 +403,7 @@ a:after {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
 .triangle {
+  /*
   position: relative;
   margin: 0 auto -30px auto;
   width: 0;
@@ -419,6 +420,8 @@ a:after {
 		background-attachment: fixed;
 		background-size: cover;
     background-position: 0px 0px, center;
+  */
+  display: none;
 }
 
 
