@@ -323,7 +323,7 @@ a:after {
 /* ---------- */
 
 
-.foreground a:hover, .foreground a:focus {
+.foreground a:hover, .foreground a:focus, .foreground a:active {
 	text-decoration: none;
 }
 
