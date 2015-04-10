@@ -325,10 +325,11 @@ a:after {
 
 .foreground a:hover, .foreground a:focus, .foreground a:active {
 	text-decoration: none;
-	border: none;
 }
 
-
+.btn:focus {
+	outline: none;
+}
 
 
 
