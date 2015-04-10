@@ -328,7 +328,7 @@ a:after {
 }
 
 .btn:focus {
-	outline: none;
+	outline: none!important;
 }
 
 
